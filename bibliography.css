@@ -1,0 +1,135 @@
+* {
+  margin: 0px;
+  box-sizing: border-box;
+}
+
+a {
+  text-decoration: none;
+}
+
+
+
+#topp {
+  background: linear-gradient(#1eb53a, #00a3dd);
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding-top: 15px;
+  padding-bottom: 15px;
+}
+
+#titlee {
+  font-family: 'IM Fell English SC', serif;
+  font-size: 100px;
+  padding-left: 25px;
+  text-shadow: 1px 1px #fcd116;
+}
+
+#subtitlee {
+  font-family: 'Lora', serif;
+  font-size: 20px;
+  padding-left: 100px;
+  text-shadow: 1px 1px #fcd116;
+}
+
+#locationn {
+  width: 175px;
+  transition: 0.5s;
+  padding-right: 25px;
+}
+
+#locationn:hover {
+  width: 500px;
+  transition: 1s;
+}
+
+
+
+#menuu {
+  background: #000000;
+  border-top: solid 0.2em;
+  border-top-color: #fcd116;
+  border-bottom: solid 0.2em;
+  border-bottom-color: #fcd116;
+
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+
+  font-family: 'Lora', serif;
+  font-size: 20px;
+  padding-left: 100px;
+  padding-right: 100px;
+}
+
+#menuu a {
+  color: #ffffff;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+#menuu a:hover {
+  color: #fcd116;
+}
+
+#menuu a.active {
+  background: linear-gradient(#1eb53a, #00a3dd);
+}
+
+
+
+#fadee {
+  animation: fadeInAnimation ease 1.5s;
+}
+
+@keyframes fadeInAnimation {
+  0% {opacity: 0;}
+  100% {opacity: 1;}
+}
+
+#leftt {
+  width: 75vw;
+  margin-left: 180px;
+}
+
+#headlinee {
+  font-family: 'IM Fell English', serif;
+  font-size: 30px;
+  text-shadow: 1px 1px #fcd116;
+
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+
+#textt {
+  background-color: rgba(0,0,0,0.1);
+  color: #000000;
+  font-family: 'Lora', serif;
+  font-size: 20px;
+  line-height: 1.5;
+
+  padding-top: 15px;
+  padding-bottom: 15px;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+#textt a {
+  color: #000000;
+  text-decoration: underline;
+}
+
+#textt a:hover {
+  color: #fcd116;
+}
+
+#bottomm {
+  position: relative;
+  font-family: 'Lora', serif;
+  font-size: 20px;
+  padding-left: 100px;
+  padding-top: 25px;
+  padding-bottom: 5px;
+}
