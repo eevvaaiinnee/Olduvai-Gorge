@@ -99,7 +99,7 @@ a {
   position: relative;
   padding-top: 100px;
   padding-left: 100px;
-  padding-right: 850px;
+  width: 40vw;;
 }
 
 #textt {
@@ -121,6 +121,6 @@ a {
   font-size: 20px;
   text-shadow: 1px 1px #ffffff;
   padding-left: 100px;
-  padding-top: 295px;
+  padding-top: 38vh;
   padding-bottom: 5px;
 }
